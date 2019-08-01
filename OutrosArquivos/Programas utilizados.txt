@@ -1,0 +1,5 @@
+Xampp para o Apache e o MySQL
+Brackets para html e php
+MySQL Workbench para o banco de dados e o heroku
+Heroku para deploy do site
+ClearDB plugin do Heroku para o MySQL
