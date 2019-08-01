@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS cadastroaluno DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci
+
+CREATE TABLE IF NOT EXISTS aluno (
+    codigo int NOT null AUTO_INCREMENT,
+    nome varchar(60) NOT null,
+    dtnasc date NOT null, 
+    notafinal float NOT null,
+    PRIMARY KEY (codigo)
+)DEFAULT charset=utf8;
+
+mysql://bc0bb534f87930:97b1e390@us-cdbr-iron-east-02.cleardb.net/heroku_0a4306c08337c3d?reconnect=true
